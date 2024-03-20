@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Fuel cost Calculator" />
+    <meta property="og:description" content="The simple fuel cost Calculator" />
+    <meta property="og:image" content="./assets/img/fuelcostimg.jpg" />
+    <link rel="shortcut icon" href="./assets/icon/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <title>FUEL-COST-CALCULATOR</title>
+  </head>
+  <body class="bg-gradient-to-l from-sky-500 to-indigo-500 m-5  font-semibold">
+    <div class="bg-[rgba(255,255,255,0.2)] p-4 rounded-md max-w-xl mx-auto space-y-5 mt-24">
+      <h3 class="font-semibold text-center">Welcome To Fuel Cost Calculator</h3>
+      <h1 id="totalCost" class="text-rose-600 font-bold text-xl  mb-5 text-center"> FUEL COST IS :💰</h1>
+      <div>
+        <label for="distance">TripDistance : KM<span class="text-red-500">*</span></label>
+        <input id="distance" class="w-full p-3 rounded mt-3 mb-6 outline-none" type="number" placeholder="TRIPDISTANCE" required>
+        <label for="efficiency">Your vehicle's Mileage<span class="text-red-500">*</span></label>
+        <input id="efficiency" class="w-full p-3 rounded mt-3 mb-6 outline-none" type="number" placeholder="YOUR CAR'S FUEL EFFICIENCY" required>
+        <label for="cost">Fuel Cost<span class="text-red-500">*</span></label>
+        <input id="cost" class="w-full p-3 rounded mt-3 mb-7 outline-none" type="number" placeholder="FUEL COST" required>
+        <button id="submitBtn" type="button" class="bg-rose-600 p-3 w-full text-white font-bold text-xl rounded hover:bg-red-700">SUBMIT</button>
+      </div>
+    </div>
+    <script type="module" src="./assets/js/main.js"></script>
+  </body>
+</html>
